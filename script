@@ -4,7 +4,7 @@
     stages {
         stage('Checkout') {
             steps {
-            checkout([--------])
+            git 'https://github.com/JimmyT96/myterraform-pipeline-project.git'
             }
         }
         
